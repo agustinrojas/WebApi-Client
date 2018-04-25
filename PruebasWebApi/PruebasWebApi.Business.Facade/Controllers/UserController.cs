@@ -39,8 +39,5 @@ namespace PruebasWebApi.Business.Facade.Controllers
             
             return Ok(_iuserBL.Set(user));
         }
-
-
-
     }
 }
