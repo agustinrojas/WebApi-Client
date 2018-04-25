@@ -15,7 +15,6 @@ namespace PruebasWebApi.Business.Facade.Controllers.Tests
         public void GetTest()
         {
             Assert.Fail();
-
         }
     }
 }
