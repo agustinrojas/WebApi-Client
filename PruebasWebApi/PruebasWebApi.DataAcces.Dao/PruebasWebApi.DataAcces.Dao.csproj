@@ -50,8 +50,8 @@
     <Compile Include="Interfaces\IDao.cs" />
     <Compile Include="Interfaces\IGet.cs" />
     <Compile Include="Interfaces\ISet.cs" />
-    <Compile Include="RedisConfig.cs" />
-    <Compile Include="RedisDao.cs" />
+    <Compile Include="Redis\RedisConfig.cs" />
+    <Compile Include="Redis\RedisDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

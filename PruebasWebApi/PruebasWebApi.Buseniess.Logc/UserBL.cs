@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using PruebasWebApi.Common.Logic;
 using PruebasWebApi.DataAcces.Dao.Interfaces;
 
-namespace PruebasWebApi.Buseniess.Logc
+namespace PruebasWebApi.Buseniess.Logc  
 {
     public class UserBL : IUserBL
     {
@@ -17,7 +17,6 @@ namespace PruebasWebApi.Buseniess.Logc
        public UserBL(IDao idao)
        {
             this._idao = idao;
-            
        }
 
         public User Get()
